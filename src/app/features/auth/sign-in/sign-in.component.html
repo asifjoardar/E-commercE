@@ -1,0 +1,14 @@
+<div fxLayoutAlign="center center" fxFlexFill>
+    <mat-card fxFlex="50">
+        <form fxLayoutAlign="stretch" fxLayout="column">
+            <mat-form-field>
+              <input matInput placeholder="user name" required>
+            </mat-form-field>
+            <mat-form-field>
+                <input matInput type="password" placeholder="password" required>
+            </mat-form-field>
+            <button mat-raised-button type="submit" class="signin">Sign In</button>
+            <button mat-raised-button class="signup" routerLink="/signup">I don't have an account!</button>
+        </form>
+    </mat-card>
+</div>

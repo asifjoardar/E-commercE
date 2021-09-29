@@ -1,0 +1,15 @@
+<mat-toolbar class="mat-elevation-z8">
+    <button mat-icon-button (click)="sidenavLeft()">
+        <mat-icon class="mat-icon-menu">
+            menu
+        </mat-icon>
+    </button>
+    <h1><a class="mainText" routerLink="">E-commercE</a></h1>
+    <div class="space"></div>
+    <a mat-raised-button routerLink="/signin"><h2>Sign In</h2></a>
+    <button mat-icon-button (click)="sidenavRight()">
+        <mat-icon matBadge="{{numberOfCartItem}}" matBadgeColor="primary">
+            shopping_cart
+        </mat-icon>
+    </button>
+</mat-toolbar>

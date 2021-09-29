@@ -1,0 +1,41 @@
+.example-viewport {
+    height: 70%;
+    width: 99%;
+    border: 1px solid black;
+}
+
+.example-item {
+    height: 80px;
+    margin: 5px;
+    border: 1px solid white;
+}
+
+.example-card{
+
+    height: 100%;
+    padding: 0px;
+}
+
+#amount{
+    height: 60%;
+    width: 10%;
+    font-size: 12px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    padding-right: 3px;
+}
+
+mat-card-title-group{
+    width: 50%;
+}
+img{
+    width: 30%;
+}
+.removeFromCart.mat-button{
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding: 5px;
+    line-height: 14px;
+    min-width: auto;
+}

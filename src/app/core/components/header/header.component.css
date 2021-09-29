@@ -1,0 +1,14 @@
+mat-toolbar{
+    background-color: brown;
+    color: white;
+}
+.space{
+    flex: 1 1 auto;
+}
+.mat-icon-menu {
+    margin-right: 8px;
+}
+.mainText {
+    color: inherit;
+    text-decoration: none;
+}

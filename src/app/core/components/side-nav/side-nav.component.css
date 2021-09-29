@@ -1,0 +1,63 @@
+/* sidenav start */
+mat-sidenav{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 200px;
+    
+    background: rgb(165, 60, 60);
+    color: white;
+    border-radius: 10px;
+    padding: 16px;
+    text-align: center;
+}
+mat-divider {
+    margin-top: 16px;
+    margin-bottom: 16px;
+    background-color: rgba(255, 255, 255, 0.5);
+}
+.menu-button {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    font-size: 1rem;
+}
+/* sidenav end */
+
+/* leftnav start */
+.categoryNav{
+    border-right: none;
+    margin-left: 10px;
+    margin-right: 5px;
+}
+/* left nav end */
+
+/* main content start */
+
+.content{
+    background-color: white;
+    height: calc(102vh - 98px);
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 16px;
+    margin-right: 16px;
+    color: lightgray;
+    border-radius: 10px;
+}
+
+mat-sidenav-container{
+    background-color: white;
+    height: calc(100vh - 65px);
+    justify-content: space-evenly;
+}
+
+/* main content end */
+
+/* right nav start */
+.itemNav{
+    width: 300px;
+    border-left: none;
+    margin-left: 5px;
+    margin-right: 10px;
+}
+/* right nav end */

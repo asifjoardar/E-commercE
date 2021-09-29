@@ -1,0 +1,14 @@
+
+<cdk-virtual-scroll-viewport appendOnly itemSize="50" class="example-viewport">
+    <div *cdkVirtualFor="let item of items" class="example-item">
+        <mat-card class="example-card" fxLayout="row" fxLayoutAlign="space-between center">
+            <input type="number" id="amount" value="1" #amountInput>
+            <mat-card-title-group fxLayout="column" fxLayoutAlign="space-around center">
+              <mat-card-title>{{item.name}}</mat-card-title>
+              <mat-card-subtitle>{{item.price | currency:'BDT'}}</mat-card-subtitle>
+            </mat-card-title-group>
+            <img mat-card-sm-image src="{{item.imageUrl}}" >
+            <button mat-button color="warn" class="removeFromCart" (click)="onRemoveCartProduct(item)">X</button>
+        </mat-card>
+    </div>
+</cdk-virtual-scroll-viewport>
